@@ -1,5 +1,5 @@
 import React from 'react'
-import { FlatList, View, Text } from 'react-native'
+import { FlatList, View, Text , StyleSheet} from 'react-native'
 import RepositorioItem from './RepositorioItem.jsx'
 import repositorios from '../data/repositorios.js'
 
@@ -14,5 +14,8 @@ const RepositoriosLista = () => {
         />
     )
 }
+
+
+
 
 export default RepositoriosLista;
