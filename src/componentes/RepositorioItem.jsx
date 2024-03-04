@@ -1,21 +1,16 @@
 import React from 'react';
-import { View , Text , StyleSheet} from 'react-native';
+import { View } from 'react-native';
+import EstilosTexto from './EstilosTexto.jsx';
 
 const RepositorioItem =  (props) => (
     
-    <View key={props.id} 
-    style={estilos.container}> 
-        <Text>Oferta : {props.nombre}</Text>
-        <Text>Precio : {props.precio}</Text>
-        <Text>Comercio : {props.comercio}</Text>
-        <Text>Rubro : {props.rubro}</Text>
+    <View key={props.id} style = {{padding : 10}}>
+        <EstilosTexto negro negrita mayuscula>Oferta : {props.nombre}</EstilosTexto>
+        <EstilosTexto negrita textoNegro>Precio : {props.precio}</EstilosTexto>
+        <EstilosTexto letraChica>Comercio : {props.comercio}</EstilosTexto>
+        <EstilosTexto letraChica>Rubro : {props.rubro}</EstilosTexto>
     </View> 
 )
 
-const estilos = StyleSheet.create ({
-    container : {
-        backgroundColor : 'red'
-    }
-})
 
 export default RepositorioItem;
