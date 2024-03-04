@@ -6,7 +6,7 @@ import RepositoriosLista from './RepositoriosLista.jsx';
 
 const Main = () => {
     return(
-        <View style = {{marginTop : Constants.statusBarHeight}}>
+        <View style = {{marginTop : Constants.statusBarHeight , width : '100%' , backgroundColor : '#EADFB4'}}>
             <RepositoriosLista/>
         </View>
         
