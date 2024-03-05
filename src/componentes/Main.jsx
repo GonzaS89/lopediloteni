@@ -1,14 +1,13 @@
 import React from 'react';
 import Constants from 'expo-constants'
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import RepositoriosLista from './RepositoriosLista.jsx';
 import AppBar from './AppBar.jsx';
 
 
 const Main = () => {
     return(
-
-        <View style = {{width : '100%' , backgroundColor : '#EE4266', marginTop : Constants.statusBarHeight}}>
+        <View style = {{backgroundColor : '#C70039' , marginTop : Constants.statusBarHeight , height : '100%'}}>
             <AppBar/>
             <RepositoriosLista/>
         </View>

@@ -5,7 +5,7 @@ const AppBar = () => {
     return (
         <View style = {estiloAppBar.container}>
             <Image 
-            style = {{height : 100 , width : 100}}
+            style = {{height : 85 , width : 85}}
             source={require('../iconos/logo-lokerilotene.png')}
             />
         </View>
@@ -14,8 +14,8 @@ const AppBar = () => {
 
 const estiloAppBar = StyleSheet.create ({
     container : {
-        height : 100,
-        backgroundColor : '#337357',
+        height : 80,
+        backgroundColor : '#FFB534',
         alignItems : 'center',
         justifyContent : 'center'
     }

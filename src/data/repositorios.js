@@ -65,5 +65,30 @@ export default[
         "domicilioComercio" : "B° La Villa",
         "rubro" : "panaderia",
         "id" : "965"
+    },
+    {
+        "nombre" : "Hamburguesa Triple con cheddar",
+        "precio" : 4000,
+        "comercio" : "Hamburgueseria Carlos",
+        "domicilioComercio" : "B° La Villa",
+        "rubro" : "comidas rapidas",
+        "id" : "842"
+    },
+    {
+        "nombre" : "Torta Hojaldrada",
+        "precio" : 12000,
+        "comercio" : "Pasteleria Gladys",
+        "domicilioComercio" : "B° La Flor",
+        "rubro" : "pasteleria",
+        "id" : "1150"
+    },
+    {
+        "nombre" : "Bolsa 15 kgs para perro",
+        "precio" : 20000,
+        "comercio" : "Forrajeria Carmen",
+        "domicilioComercio" : "B° La Cancha",
+        "rubro" : "alimento para mascotas",
+        "id" : "11515"
     }
+    
 ]
